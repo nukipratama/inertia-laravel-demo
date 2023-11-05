@@ -8,9 +8,6 @@
                 <NavLink href="/users" :active="$page.component.startsWith('Users')">Users</NavLink>
             </li>
             <li>
-                <NavLink href="/settings" :active="$page.component.startsWith('Settings')">Settings</NavLink>
-            </li>
-            <li>
                 <NavLink href="/logout" method="POST" as="button">Log Out</NavLink>
             </li>
         </ul>

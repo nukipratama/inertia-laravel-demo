@@ -11,7 +11,7 @@ class UserPolicy
      */
     public function create(User $user): bool
     {
-        return $user->email === 'nuki@test.com';
+        return $user->email === config('auth.admin.email');
     }
 
     /**
