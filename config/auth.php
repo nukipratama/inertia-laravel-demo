@@ -13,7 +13,7 @@ return [
     |
     */
     'admin' => [
-        'email' => env('ADMIN_EMAIL', 'admin@example.com'),
+        'email' => env('ADMIN_EMAIL', 'nuki@example.com'),
     ],
 
     'defaults' => [
